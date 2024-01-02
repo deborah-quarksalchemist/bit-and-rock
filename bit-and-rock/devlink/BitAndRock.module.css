@@ -63,13 +63,14 @@
 
 @media screen and (max-width: 767px) {
   .logo-parent.push {
-    margin-bottom: 100px;
+    margin-top: 0px;
+    margin-bottom: 10px;
   }
 }
 
 @media screen and (max-width: 479px) {
   .logo-parent.push {
-    top: 27%;
+    top: 0%;
   }
 }
 
@@ -95,7 +96,7 @@
 
 @media screen and (max-width: 479px) {
   .main-header {
-    font-size: 50px;
+    font-size: 35px;
   }
 }
 
@@ -106,7 +107,7 @@
 
 @media screen and (max-width: 479px) {
   .description-box {
-    top: 300px;
+    top: 0px;
     padding-left: 10px;
   }
 }
@@ -140,7 +141,7 @@
 
 @media screen and (max-width: 479px) {
   .h4-green {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -150,6 +151,36 @@
   font-size: 18px;
   line-height: 20px;
   font-weight: 400;
+}
+
+@media screen and (max-width: 479px) {
+  .sub-title.one {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .sub-title.two {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .sub-title.three {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .sub-title.four {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .sub-title.five {
+    font-size: 12px;
+  }
 }
 
 .btn-parent {
@@ -218,7 +249,7 @@
 
 @media screen and (max-width: 479px) {
   .btn-txt-sm {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -236,7 +267,7 @@
 
 @media screen and (max-width: 479px) {
   .btn-txt-sm-ap {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
