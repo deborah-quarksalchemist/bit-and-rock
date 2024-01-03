@@ -23,8 +23,14 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Epilogue&family=Spline+Sans+Mono:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
+        <script
+          src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=659017a464761a9cccff3260"
+          type="text/javascript"
+          integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        ></script>
+        <script src="./js/webflow.js" type="text/javascript"></script>
       </head>
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
